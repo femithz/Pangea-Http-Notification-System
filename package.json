@@ -1,0 +1,23 @@
+{
+  "name": "Pangea-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alliance-api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "^8.2.0",
+    "express": "*",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.0",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "author": "Femithz",
+  "license": "ISC"
+}
