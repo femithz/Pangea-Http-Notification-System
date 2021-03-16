@@ -13,5 +13,5 @@ const apiCtrl = require('../controllers/api.controller');
 // Api Routes 
 router.post('/topic', apiCtrl.create_topic);
 router.post('/subcribe/:topic', apiCtrl.subcribe);
-
+router.post('/publish/:topic', apiCtrl.publish);
 module.exports = router;
